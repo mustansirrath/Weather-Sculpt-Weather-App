@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: allfont;
+  src: url("./Fonts/Matter-Medium.otf");
+}
+
+.main-bg{
+  background-image: url('./Images/main-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0.5rem 4rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-div {
+  width: auto;
+  height: auto;
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  padding: 15px;
+  margin: 20px;
+  font-family: allfont;
+  backdrop-filter: blur(23px) saturate(200%);
+  -webkit-backdrop-filter: blur(23px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.8);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.first-div h3{
+  margin: 10px 0px;
+  color: lightgray;
+}
+
+.first-div p{
+  margin: 10px 0px;
+  color: lightgray;
+}
+
+.second-div {
+  width: auto;
+  height: auto;
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  color: lightgray;
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: allfont;
+  backdrop-filter: blur(23px) saturate(200%);
+  -webkit-backdrop-filter: blur(23px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.8);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.second-div h2{
+  margin-bottom: 1.3rem;
+}
+
+.middle-div{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.middle-div h2{
+  font-family: allfont;
+  color: lightgray;
+}
+
+.main-third-div{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  font-family: allfont;
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  padding: 10px;
+  backdrop-filter: blur(23px) saturate(200%);
+  -webkit-backdrop-filter: blur(23px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.8);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.third-div{
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  margin: 10px;
+  border-radius: 15px;
+  padding: 15px;
+  width: 20rem;
+  height: auto;
+  color: lightgray;
+}
+
+.third-div h3{
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.third-div i{
+  padding: 0px 8px;
+}
+
+.third-div p{
+  margin: 12px 0px;
+}
+
+.main-inside-div-third div{
+  display: flex;
+  align-items: center;
+}
+
+.first-div .main-inside-div-first{
+  border: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.second-div div {
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.second-div div i{
+  padding: 0px 8px;
+  font-size: 22px;
+}
+
+.first-div div {
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.weather-img {
+  margin: 0px 7px;
+  width: 3rem;
+}
+
+.second-div .main-inside-div {
+  border: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchLocation {
+  margin-bottom: 1rem;
+}
+
+.searchLocation input {
+  width: 35rem;
+  padding: 20px 7px;
+  color: lightgray;
+  font-family: allfont;
+  backdrop-filter: blur(23px) saturate(200%);
+  -webkit-backdrop-filter: blur(23px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.8);
+  border-radius: 15px;
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  transition: 0.3s;
+}
+
+.searchLocation input:focus{
+  outline: 1px solid rgba(255, 255, 255, 0.181)
+}
+
+.searchLocation button {
+  padding: 20px 15px;
+  border: 2px solid rgba(211, 211, 211, 0.305);
+  border-radius: 15px;
+  font-family: allfont;
+  cursor: pointer;
+  background-color: #111C3C;
+  color: lightgray;
+  transition: 0.2s;
+  margin: 0px 7px;
+}
+
+.searchLocation button:hover{
+  background-color: #06194e;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0rem 4rem 0rem;
+  backdrop-filter: blur(23px) saturate(200%);
+  -webkit-backdrop-filter: blur(23px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.8);
+}
+
+.footer-info{
+  padding: 10px;
+}
+
+.footer-info p{
+  font-family: allFont;
+  color: lightgray;
+  font-size: 20px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.footer-info a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-info i{
+  color: red;
+}

@@ -1,0 +1,93 @@
+@media only screen and (max-width: 769px) {
+  .first-div p {
+    font-size: 14px;
+  }
+
+  .second-div h2 {
+    font-size: 23px;
+  }
+
+  .searchLocation {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .searchLocation button {
+    margin: 12px 7px;
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .searchLocation input {
+    width: 27rem;
+  }
+
+  .searchLocation button {
+    width: 27rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .searchLocation input {
+    width: 20rem;
+  }
+
+  .searchLocation button {
+    width: 20rem;
+  }
+
+  .second-div h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .first-div p {
+    font-size: 12.5px;
+  }
+
+  .weather-img {
+    margin: 0px 7px;
+    width: 2rem;
+  }
+
+  .middle-div h2 {
+    font-family: allfont;
+    font-size: 20px;
+    color: lightgray;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .second-div h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .second-div div {
+    border: 2px solid rgba(211, 211, 211, 0.305);
+    border-radius: 15px;
+    margin: 7px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+  }
+
+  .middle-div h2 {
+    font-family: allfont;
+    font-size: 17px;
+    color: lightgray;
+  }
+
+  .third-div p {
+    margin: 12px 0px;
+    font-size: 14px;
+  }
+
+  .third-div {
+    width: 18rem;
+}
+}
